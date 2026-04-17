@@ -97,6 +97,13 @@ nav .sideMenuButton {
 	color: #3730c4;
 	text-decoration: underline;
 }
+.grid-container img {
+	width: 600px;
+	height: 350px;
+}
+.grid-container img:hover {
+	transform: scale(1.1);
+}
 
 .intro { 
 	grid-area: intro; 
