@@ -1,0 +1,169 @@
+.less-container { 
+	display: grid;
+	grid-template-areas:
+		'intro intro'
+		'main main'
+        'foot foot'
+		;
+	grid-template-columns: 2fr 2fr;
+	gap: 10px;
+	background-color: #3730c4;
+	padding: 10px;
+}
+.less-container > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+.less-container h1 {
+	font-size:50px;
+}
+.less-container h2 {
+	font-size: 40px;
+}
+.less-container a {
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.4s ease;
+}
+.less-container a:hover {
+	text-decoration: none;
+}
+.less-container img {
+	width: 350px;
+	height: 350px;
+	transition: .0.2 ease-out;
+}
+.less-container img:hover {
+	transform: scale(1.1);
+}
+.less-container .intro {
+    grid-area:intro;
+}
+.intro p {
+	font-size:30px;
+}
+.intro a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.intro a:hover {
+	transform: scale(150%);
+	color: white;
+	text-decoration: none;
+}
+.main {
+    grid-area: main;
+	display: grid;
+	grid-template-areas:
+		'lside rside'
+        'lessexer lessexer'
+        'pless nless'
+		;
+	grid-template-columns: 2fr 2fr;
+	gap: 10px;
+	background-color: #3730c4;
+	padding: 10px;
+}
+.main p {
+	font-size:30px;
+}
+.main a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.main a:hover {
+	transform: scale(150%);
+	color: white;
+	text-decoration: none;
+}
+.main .lside {
+    grid-area: lside;
+    padding: 20px;
+}
+.main .rside {
+    grid-area: rside;
+    padding: 20px;
+}
+.main .lessexer {
+    grid-area: lessexer;
+    padding: 20px;
+}
+.main .lessexer a {
+    color: black;
+    font-size: 45px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.main .lessexer a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+	text-decoration: none;
+}
+.main .lessexer .exerbutton {
+    background-color: white;
+    color: #ffffff;
+    padding: 8px 8px;
+    border: 2px solid;
+	border-radius: 10px;
+	transition: 0.4s ease;
+}
+.pless {
+    grid-area: pless;
+}
+.pless a {
+    color: black;
+    font-size: 35px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.pless a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+	text-decoration: none;
+}
+.pless .lessbutton {
+    background-color: white;
+    color: #ffffff;
+    padding: 8px 8px;
+    border: 2px solid;
+	border-radius: 10px;
+	transition: 0.4s ease;
+}
+.nless {
+    grid-area: nless;
+}
+.nless a {
+    color: black;
+    font-size: 35px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.nless a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+	text-decoration: none;
+}
+.nless .lessbutton {
+    background-color: white;
+    color: #ffffff;
+    padding: 8px 8px;
+    border: 2px solid;
+	border-radius: 10px;
+	transition: 0.4s ease;
+}

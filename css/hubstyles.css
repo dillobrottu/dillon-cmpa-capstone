@@ -30,7 +30,6 @@
 	transition: 0.4s ease;
 }
 .lexr-container a:hover {
-	color: #3730c4;
 	text-decoration: none;
 }
 .lexr-container img {
@@ -59,7 +58,6 @@
 }
 .intro a:hover {
 	transform: scale(150%);
-    background-color: #0066B1;
 	color: white;
 	text-decoration: none;
 }
@@ -79,7 +77,6 @@
 }
 .item1 a:hover {
 	transform: scale(150%);
-    background-color: #0066B1;
 	color: white;
 	text-decoration: none;
 }
@@ -119,7 +116,6 @@
 }
 .item3 a:hover {
 	transform: scale(150%);
-    background-color: #0066B1;
 	color: white;
 	text-decoration: none;
 }
@@ -139,7 +135,6 @@
 }
 .item4 a:hover {
 	transform: scale(150%);
-    background-color: #0066B1;
 	color: white;
 	text-decoration: none;
 }
