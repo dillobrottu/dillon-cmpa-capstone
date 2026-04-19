@@ -1,0 +1,127 @@
+.exer-container { 
+	display: grid;
+	grid-template-areas:
+		'intro intro'
+		'exercise exercise'
+        'foot foot'
+		;
+	grid-template-columns: 2fr 2fr;
+	gap: 10px;
+	background-color: #3730c4;
+	padding: 10px;
+}
+.exer-container > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+.exer-container h1 {
+	font-size:50px;
+}
+.exer-container h2 {
+	font-size: 40px;
+}
+.exer-container a {
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.4s ease;
+}
+.exer-container a:hover {
+	text-decoration: none;
+}
+.exer-container img {
+	width: 350px;
+	height: 350px;
+	transition: .0.2 ease-out;
+}
+.exer-container img:hover {
+	transform: scale(1.1);
+}
+.exer-container .intro {
+    grid-area:intro;
+    padding: 10px;
+}
+.intro p {
+	font-size:30px;
+}
+.intro a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.intro a:hover {
+	transform: scale(150%);
+	color: white;
+	text-decoration: none;
+}
+.exercise {
+    grid-area: exercise;
+	display: grid;
+	grid-template-areas:
+		'quiz quiz'
+        'reset reset'
+        'pexer nexer'
+		;
+	grid-template-columns: 2fr 2fr;
+	gap: 10px;
+	background-color: #3730c4;
+	padding: 10px;
+}
+#quiz {
+    grid-area: quiz;
+    padding: 10px;
+}
+#question {
+    margin: 20px;
+}
+#options {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+#options button {
+    background-color: white;
+    color: black;
+    padding: 8px 8px;
+    border: 2px solid;
+	border-radius: 10px;
+	transition: 0.4s ease;
+    cursor: pointer;
+}
+#options button:hover {
+    background-color: #0066B1;
+	color: white;
+	text-decoration: none;
+}
+.exercise .reset {
+    grid-area: reset;
+    padding: 10x;
+}
+.pexer {
+    grid-area: pexer;
+    padding: 10px;
+}
+.nexer {
+    grid-area: nexer;
+    padding: 10px;
+}
+.exer-container .exercise button {
+    background-color: white;
+    color: black;
+    padding: 8px 8px;
+    border: 2px solid;
+	border-radius: 10px;
+	transition: 0.4s ease;
+    cursor: pointer;
+}
+.exer-container .exercise button:hover {
+    background-color: #0066B1;
+	color: white;
+	text-decoration: none;
+}
